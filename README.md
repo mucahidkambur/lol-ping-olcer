@@ -34,3 +34,4 @@ IP adresleri res/values/arrays.xml içerisinde yer alıyor.
 **Not:** IP adresleri güncelliğini yitirmiş olabilir.
 
 ## Screenshot
+![Screenshot](https://github.com/mucahitkambur/lol-ping-olcer/blob/master/resimler/screenshot.gif)
