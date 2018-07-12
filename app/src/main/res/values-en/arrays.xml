@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="server">
+        <item>Turkey</item>
+        <item>EU West</item>
+        <item>EU East</item>
+        <item>North America</item>
+        <item>Latin America North</item>
+        <item>Oceania</item>
+        <item>Brazil</item>
+    </string-array>
+
+    <string-array name="ip">
+        <item>104.160.142.1</item>
+        <item>104.160.141.3</item>
+        <item>104.160.142.3</item>
+        <item>104.160.131.3</item>
+        <item>104.160.136.3</item>
+        <item>104.160.156.1</item>
+        <item>104.160.152.3</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/MainTheme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/main"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imgTemo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/teemo"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/txtMS"
+                fontPath="fonts/frizquadrata.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/tMilisecond"
+                android:textColor="@color/kenar"
+                android:textSize="100sp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txtDurum"
+            fontPath="fonts/frizquadrata.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/tDurum"
+            android:textColor="@color/kenar"
+            android:textSize="16sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txtSunucu"
+            fontPath="fonts/frizquadrata.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/tServer"
+            android:textColor="@color/kenar"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="39dp"
+            android:layout_marginRight="39dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_spinner"
+            android:popupBackground="@drawable/custom_dropdown_spinner" />
+
+        <Button
+            android:id="@+id/btnPingle"
+            style="@style/NiceButton"
+            fontPath="fonts/frizquadrata.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="39dp"
+            android:layout_marginRight="39dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/bPingle" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtYaklasik"
+                fontPath="fonts/frizquadrata.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_horizontal"
+                android:text="@string/tYaklasik"
+                android:textColor="@color/kenar" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

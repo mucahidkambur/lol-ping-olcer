@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoL Ping</string>
+    <string name="tMilisecond" translatable="false">MS</string>
+    <string name="tServer">Sunucu Seç</string>
+    <string name="tPinging">Pingleniyor...</string>
+    <string name="tYaklasik">*Değerler yaklaşık değerlerdir.</string>
+    <string name="tDurum" translatable="false">MS</string>
+    <string name="bPingle">PINGLE</string>
+    <string name="pingIyi">Pinginiz oyun oynamak için uygun.</string>
+    <string name="pingOrta">Pinginiz biraz yüksek, gecikmeler yaşayabilirsiniz.</string>
+    <string name="pingKotu">Pinginiz çok yüksek, oyuna girmeniz tavsiye edilmez.</string>
+    <string name="internet">İnternet bağlantınız yok.</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoL Ping</string>
+    <string name="bPingle">PING</string>
+    <string name="internet">No internet connection.</string>
+    <string name="pingIyi">Ping is good for play.</string>
+    <string name="pingKotu">Ping is too high, it is not advisable to enter the game.</string>
+    <string name="pingOrta">Ping is a bit high, you can experience delays.</string>
+    <string name="tPinging">Pinging...</string>
+    <string name="tServer">Select Server</string>
+    <string name="tYaklasik">* Values are approximate values.</string>
+</resources>
